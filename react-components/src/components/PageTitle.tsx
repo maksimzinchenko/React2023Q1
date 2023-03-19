@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Container from '../UI/Container';
 import Navbar from './Navbar';
 
 type Props = {
@@ -9,8 +10,10 @@ class PageTitle extends Component<Props, never> {
   render() {
     return (
       <header>
-        <h1>{this.props.title}</h1>
-        <Navbar />
+        <Container>
+          <h1>{this.props.title}</h1>
+          <Navbar />
+        </Container>
       </header>
     );
   }

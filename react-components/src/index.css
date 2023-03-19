@@ -6,5 +6,6 @@ body {
 }
 
 .container {
-    width: 920px;
+    width: 1120px;
+    background-color: rgb(255, 75, 114);
 }

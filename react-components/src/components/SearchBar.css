@@ -1,0 +1,17 @@
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(124, 5, 71);
+}
+
+.search_bar__input {
+    width: 600px;
+    border: 3px solid blueviolet;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 3em;
+    line-height: 2em;
+}

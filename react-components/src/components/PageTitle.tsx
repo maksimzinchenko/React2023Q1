@@ -4,11 +4,11 @@ import Navbar from './Navbar';
 
 import './PageTitle.css';
 
-type Props = {
+type PageProps = {
   title: string;
 };
 
-class PageTitle extends Component<Props, never> {
+class PageTitle extends Component<PageProps, never> {
   render() {
     return (
       <header>

@@ -19,7 +19,6 @@ class SearchBar extends Component<SearchBarProps, SearchBarState> {
   }
 
   componentWillUnmount = (): void => {
-    localStorage.setItem('searchText2', 'dsfsdf');
     localStorage.setItem('searchText', this.state.searchText);
   };
 
@@ -30,6 +29,7 @@ class SearchBar extends Component<SearchBarProps, SearchBarState> {
     this.setState({
       searchText,
     });
+    localStorage.setItem('searchText', searchText);
   };
 
   render() {

@@ -1,0 +1,13 @@
+.navbar {
+    padding: 20px;
+    width: 50%;
+}
+
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__link {
+    padding: 20px;
+}

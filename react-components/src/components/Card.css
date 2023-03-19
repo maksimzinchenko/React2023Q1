@@ -1,0 +1,17 @@
+.card {
+    width: 200px;
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: coral;
+}
+
+.cardHeader {
+    margin: 0;
+}
+
+.cardBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
